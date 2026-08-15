@@ -1,6 +1,6 @@
 # Temporal Conflict Resolution in Multi-Source Financial Transaction Records
 
-[![CI](https://github.com/BHANUCHELLA/temporal-conflict-resolution/actions/workflows/ci.yml/badge.svg)](https://github.com/<you>/temporal-conflict-resolution/actions/workflows/ci.yml)
+[![CI](https://github.com/BHANUCHELLA/temporal-conflict-resolution/actions/workflows/ci.yml/badge.svg)](https://github.com/BHANUCHELLA/temporal-conflict-resolution/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A deterministic reconciliation engine that ingests transaction records from
