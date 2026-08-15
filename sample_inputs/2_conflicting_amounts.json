@@ -1,0 +1,6 @@
+[
+  {"transaction_id": "TXN-S2-001", "source": "SecondaryBank", "timestamp": "2024-03-15T10:30:00Z", "amount": 2500.0, "currency": "USD", "status": "Pending", "confidence_score": 0.80},
+  {"transaction_id": "TXN-S2-001", "source": "PrimaryBank", "timestamp": "2024-03-15T10:31:00Z", "amount": 2750.0, "currency": "USD", "status": "Pending", "confidence_score": 0.95},
+  {"transaction_id": "TXN-S2-002", "source": "SecondaryBank", "timestamp": "2024-03-15T09:00:00Z", "amount": 100.0, "currency": "EUR", "status": "Pending", "confidence_score": 0.6},
+  {"transaction_id": "TXN-S2-002", "source": "SecondaryBank", "timestamp": "2024-03-15T09:05:00Z", "amount": 120.0, "currency": "EUR", "status": "Pending", "confidence_score": 0.9}
+]

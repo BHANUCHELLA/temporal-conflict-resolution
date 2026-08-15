@@ -1,0 +1,221 @@
+[
+  {
+    "transaction_id": "TXN-S1-001",
+    "source": "PrimaryBank",
+    "timestamp": "2024-03-15T10:30:00Z",
+    "amount": 1500.0,
+    "currency": "USD",
+    "status": "Pending",
+    "confidence_score": 0.95
+  },
+  {
+    "transaction_id": "TXN-S1-001",
+    "source": "PrimaryBank",
+    "timestamp": "2024-03-15T10:30:00Z",
+    "amount": 1500.0,
+    "currency": "USD",
+    "status": "Pending",
+    "confidence_score": 0.95
+  },
+  {
+    "transaction_id": "TXN-S1-001",
+    "source": "PrimaryBank",
+    "timestamp": "2024-03-15T10:30:00Z",
+    "amount": 1500.0,
+    "currency": "USD",
+    "status": "Pending",
+    "confidence_score": 0.95
+  },
+  {
+    "transaction_id": "TXN-S2-001",
+    "source": "SecondaryBank",
+    "timestamp": "2024-03-15T10:30:00Z",
+    "amount": 2500.0,
+    "currency": "USD",
+    "status": "Pending",
+    "confidence_score": 0.8
+  },
+  {
+    "transaction_id": "TXN-S2-001",
+    "source": "PrimaryBank",
+    "timestamp": "2024-03-15T10:31:00Z",
+    "amount": 2750.0,
+    "currency": "USD",
+    "status": "Pending",
+    "confidence_score": 0.95
+  },
+  {
+    "transaction_id": "TXN-S2-002",
+    "source": "SecondaryBank",
+    "timestamp": "2024-03-15T09:00:00Z",
+    "amount": 100.0,
+    "currency": "EUR",
+    "status": "Pending",
+    "confidence_score": 0.6
+  },
+  {
+    "transaction_id": "TXN-S2-002",
+    "source": "SecondaryBank",
+    "timestamp": "2024-03-15T09:05:00Z",
+    "amount": 120.0,
+    "currency": "EUR",
+    "status": "Pending",
+    "confidence_score": 0.9
+  },
+  {
+    "transaction_id": "TXN-S3-001",
+    "source": "SecondaryBank",
+    "timestamp": "2024-03-15T10:30:00Z",
+    "amount": 500.0,
+    "currency": "GBP",
+    "status": "Completed",
+    "confidence_score": 0.75
+  },
+  {
+    "transaction_id": "TXN-S3-001",
+    "source": "PrimaryBank",
+    "timestamp": "2024-03-15T09:00:00Z",
+    "amount": 525.0,
+    "currency": "GBP",
+    "status": "Pending",
+    "confidence_score": 0.95
+  },
+  {
+    "transaction_id": "TXN-S4-001",
+    "amount": 800.0,
+    "currency": "USD"
+  },
+  {
+    "transaction_id": "TXN-S4-002",
+    "source": "PrimaryBank",
+    "amount": 250.0,
+    "currency": "USD",
+    "status": "Pending"
+  },
+  {
+    "transaction_id": "TXN-S5-001",
+    "source": "PrimaryBank",
+    "timestamp": "2024-03-15T10:00:00Z",
+    "amount": 3000.0,
+    "currency": "USD",
+    "status": "Pending",
+    "confidence_score": 0.9
+  },
+  {
+    "transaction_id": "TXN-S5-001",
+    "source": "PrimaryBank",
+    "timestamp": "2024-03-15T10:05:00Z",
+    "amount": 3000.0,
+    "currency": "USD",
+    "status": "Completed",
+    "confidence_score": 0.9
+  },
+  {
+    "transaction_id": "TXN-S5-002",
+    "source": "PrimaryBank",
+    "timestamp": "2024-03-15T10:00:00Z",
+    "amount": 500.0,
+    "currency": "USD",
+    "status": "Pending",
+    "confidence_score": 0.9
+  },
+  {
+    "transaction_id": "TXN-S5-002",
+    "source": "PrimaryBank",
+    "timestamp": "2024-03-15T10:05:00Z",
+    "amount": 500.0,
+    "currency": "USD",
+    "status": "Approved",
+    "confidence_score": 0.9
+  },
+  {
+    "transaction_id": "TXN-S5-002",
+    "source": "PrimaryBank",
+    "timestamp": "2024-03-15T10:10:00Z",
+    "amount": 500.0,
+    "currency": "USD",
+    "status": "Completed",
+    "confidence_score": 0.9
+  },
+  {
+    "transaction_id": "TXN-S6-001",
+    "source": "PrimaryBank",
+    "timestamp": "2024-03-15T23:59:59Z",
+    "amount": 1000.0,
+    "currency": "USD",
+    "status": "Pending",
+    "confidence_score": 0.9,
+    "event_sequence": 1
+  },
+  {
+    "transaction_id": "TXN-S6-001",
+    "source": "SecondaryBank",
+    "timestamp": "2024-03-16T00:00:01Z",
+    "amount": 1050.0,
+    "currency": "USD",
+    "status": "Approved",
+    "confidence_score": 0.85,
+    "event_sequence": 2
+  },
+  {
+    "transaction_id": "TXN-S7-001",
+    "source": "SecondaryBank",
+    "timestamp": "2024-03-15T12:00:00Z",
+    "amount": 300.0,
+    "currency": "USD",
+    "status": "Pending",
+    "confidence_score": 0.8,
+    "event_sequence": 5
+  },
+  {
+    "transaction_id": "TXN-S7-001",
+    "source": "SecondaryBank",
+    "timestamp": "2024-03-15T12:00:00Z",
+    "amount": 310.0,
+    "currency": "USD",
+    "status": "Pending",
+    "confidence_score": 0.8,
+    "event_sequence": 2
+  },
+  {
+    "transaction_id": "TXN-INTERACT-001",
+    "source": "SecondaryBank",
+    "timestamp": "2024-03-15T23:59:00Z",
+    "amount": 900.0,
+    "currency": "USD",
+    "status": "Pending",
+    "confidence_score": 0.7
+  },
+  {
+    "transaction_id": "TXN-INTERACT-001",
+    "source": "SecondaryBank",
+    "timestamp": "2024-03-15T23:59:00Z",
+    "amount": 900.0,
+    "currency": "USD",
+    "status": "Pending",
+    "confidence_score": 0.7
+  },
+  {
+    "transaction_id": "TXN-INTERACT-001",
+    "amount": 950.0,
+    "status": "Approved"
+  },
+  {
+    "transaction_id": "TXN-INTERACT-001",
+    "source": "PrimaryBank",
+    "timestamp": "2024-03-15T23:58:00Z",
+    "amount": 1000.0,
+    "currency": "USD",
+    "status": "Approved",
+    "confidence_score": 0.95
+  },
+  {
+    "transaction_id": "TXN-INTERACT-001",
+    "source": "PrimaryBank",
+    "timestamp": "2024-03-16T00:00:05Z",
+    "amount": 1000.0,
+    "currency": "USD",
+    "status": "Completed",
+    "confidence_score": 0.95
+  }
+]

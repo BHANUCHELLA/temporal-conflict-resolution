@@ -1,0 +1,4 @@
+[
+  {"transaction_id": "TXN-S4-001", "amount": 800.0, "currency": "USD"},
+  {"transaction_id": "TXN-S4-002", "source": "PrimaryBank", "amount": 250.0, "currency": "USD", "status": "Pending"}
+]

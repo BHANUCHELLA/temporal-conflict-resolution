@@ -1,0 +1,7 @@
+[
+  {"transaction_id": "TXN-S5-001", "source": "PrimaryBank", "timestamp": "2024-03-15T10:00:00Z", "amount": 3000.0, "currency": "USD", "status": "Pending", "confidence_score": 0.9},
+  {"transaction_id": "TXN-S5-001", "source": "PrimaryBank", "timestamp": "2024-03-15T10:05:00Z", "amount": 3000.0, "currency": "USD", "status": "Completed", "confidence_score": 0.9},
+  {"transaction_id": "TXN-S5-002", "source": "PrimaryBank", "timestamp": "2024-03-15T10:00:00Z", "amount": 500.0, "currency": "USD", "status": "Pending", "confidence_score": 0.9},
+  {"transaction_id": "TXN-S5-002", "source": "PrimaryBank", "timestamp": "2024-03-15T10:05:00Z", "amount": 500.0, "currency": "USD", "status": "Approved", "confidence_score": 0.9},
+  {"transaction_id": "TXN-S5-002", "source": "PrimaryBank", "timestamp": "2024-03-15T10:10:00Z", "amount": 500.0, "currency": "USD", "status": "Completed", "confidence_score": 0.9}
+]

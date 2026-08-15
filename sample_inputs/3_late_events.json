@@ -1,0 +1,4 @@
+[
+  {"transaction_id": "TXN-S3-001", "source": "SecondaryBank", "timestamp": "2024-03-15T10:30:00Z", "amount": 500.0, "currency": "GBP", "status": "Completed", "confidence_score": 0.75},
+  {"transaction_id": "TXN-S3-001", "source": "PrimaryBank", "timestamp": "2024-03-15T09:00:00Z", "amount": 525.0, "currency": "GBP", "status": "Pending", "confidence_score": 0.95}
+]

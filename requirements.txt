@@ -1,0 +1,8 @@
+# Core engine uses only Python stdlib — no install needed
+# Optional extras for visualization notebook:
+jupyter>=1.0.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+tabulate>=0.9.0
+# Optional: Oracle DB support
+# cx_Oracle>=8.3.0

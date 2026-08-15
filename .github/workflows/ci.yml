@@ -1,0 +1,85 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    name: Test on Python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Sanity check (setup.py)
+        run: python setup.py
+
+      - name: Run unit test suite (main.py --test)
+        run: python main.py --test
+
+      - name: Run unittest module directly (with verbose output)
+        run: python -m unittest discover -s tests -v
+
+      - name: Run performance benchmark
+        run: python main.py --benchmark
+
+      - name: Run demo scenarios
+        run: python demo.py
+
+      - name: Validate Oracle schema offline (structural only)
+        run: python db/oracle_connect.py --dry-run
+
+      - name: Run CLI against every sample input
+        run: |
+          mkdir -p audit_output
+          for f in sample_inputs/*.json; do
+            echo "=== $f ==="
+            python main.py --input "$f" --report --output "audit_output/$(basename "$f" .json).audit.json"
+          done
+
+      - name: Upload audit output artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-output-py${{ matrix.python-version }}
+          path: audit_output/
+          if-no-files-found: warn
+
+  notebook:
+    name: Execute visualization notebook
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install notebook dependencies
+        run: pip install jupyter nbconvert pandas matplotlib tabulate
+
+      - name: Execute notebook end-to-end
+        run: |
+          jupyter nbconvert --to notebook --execute \
+            notebooks/visualization.ipynb \
+            --output visualization.executed.ipynb
+
+      - name: Upload executed notebook
+        uses: actions/upload-artifact@v4
+        with:
+          name: executed-notebook
+          path: notebooks/visualization.executed.ipynb

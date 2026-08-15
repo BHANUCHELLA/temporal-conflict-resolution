@@ -1,0 +1,11 @@
+[
+  {"transaction_id": "TXN-INTERACT-001", "source": "SecondaryBank", "timestamp": "2024-03-15T23:59:00Z", "amount": 900.0, "currency": "USD", "status": "Pending", "confidence_score": 0.7},
+
+  {"transaction_id": "TXN-INTERACT-001", "source": "SecondaryBank", "timestamp": "2024-03-15T23:59:00Z", "amount": 900.0, "currency": "USD", "status": "Pending", "confidence_score": 0.7},
+
+  {"transaction_id": "TXN-INTERACT-001", "amount": 950.0, "status": "Approved"},
+
+  {"transaction_id": "TXN-INTERACT-001", "source": "PrimaryBank", "timestamp": "2024-03-15T23:58:00Z", "amount": 1000.0, "currency": "USD", "status": "Approved", "confidence_score": 0.95},
+
+  {"transaction_id": "TXN-INTERACT-001", "source": "PrimaryBank", "timestamp": "2024-03-16T00:00:05Z", "amount": 1000.0, "currency": "USD", "status": "Completed", "confidence_score": 0.95}
+]
