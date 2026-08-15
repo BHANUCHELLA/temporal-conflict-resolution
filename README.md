@@ -39,7 +39,7 @@ yourself, it takes about a second.)*
 ### Clone & Run
 
 ```bash
-git clone https://github.com/<you>/temporal-conflict-resolution.git
+git clone https://github.com/BHANUCHELLA/temporal-conflict-resolution.git
 cd temporal-conflict-resolution
 
 # sanity-check that everything is in place
