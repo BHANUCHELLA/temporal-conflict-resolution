@@ -55,8 +55,7 @@ python main.py --input sample_inputs/comprehensive_all_cases.json
 python main.py --input sample_inputs/2_conflicting_amounts.json --verbose
 
 # Generate a full JSON audit report
-python main.py --input sample_inputs/3_late_events.json \
-    --output audit_output/report.json --report
+python main.py --input sample_inputs/3_late_events.json \--output audit_output/report.json --report
 
 # Read events from stdin instead of a file
 cat sample_inputs/1_duplicate_events.json | python main.py
